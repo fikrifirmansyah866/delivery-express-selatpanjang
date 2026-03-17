@@ -4,6 +4,7 @@ body {
   background: #f0f2f5;
 }
 
+/* HEADER */
 header {
   background: linear-gradient(135deg, #00c853, #009624);
   color: white;
@@ -11,43 +12,65 @@ header {
   text-align: center;
   font-size: 22px;
   font-weight: bold;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
+/* CONTAINER */
 .container {
   padding: 20px;
 }
 
+/* CARD */
 .card {
   background: white;
   padding: 20px;
   border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  margin-top: -30px;
 }
 
+/* INPUT */
 input {
   width: 100%;
   padding: 12px;
   margin: 8px 0;
-  border-radius: 8px;
-  border: 1px solid #ccc;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
 }
 
+/* BUTTON */
 button {
   width: 100%;
   padding: 14px;
   background: linear-gradient(135deg, #00c853, #009624);
   color: white;
   border: none;
-  border-radius: 10px;
+  border-radius: 12px;
   margin-top: 10px;
   font-size: 16px;
+  font-weight: bold;
 }
 
+/* MENU */
 .menu {
   background: white;
   padding: 15px;
-  margin: 10px 0;
-  border-radius: 12px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  margin: 12px 0;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
   font-weight: bold;
+  text-align: center;
+  transition: 0.2s;
+}
+
+/* EFFECT KLIK */
+.menu:active {
+  transform: scale(0.97);
+}
+
+/* JUDUL */
+h3 {
+  text-align: center;
   }
