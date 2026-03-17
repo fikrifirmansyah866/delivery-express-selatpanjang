@@ -11,7 +11,8 @@
 
 <header>Delivery Express</header>
 
-<div class="container" id=<div class="container" id=<div class="container" id="loginPage">
+<!-- LOGIN -->
+<div class="container" id="loginPage">
   <div class="card">
     <h3>Login</h3>
     <input type="text" id="email" placeholder="Email">
@@ -20,17 +21,21 @@
   </div>
 </div>
 
+<!-- HOME -->
 <div class="container" id="homePage" style="display:none;">
   <div class="menu" onclick="showOrder()">Ojek Online</div>
   <div class="menu">Delivery Barang</div>
   <div class="menu">Pesan Makanan</div>
 </div>
 
+<!-- ORDER -->
 <div class="container" id="orderPage" style="display:none;">
-  <h3>Pesan Ojek</h3>
-  <input type="text" id="pickup" placeholder="Lokasi Jemput">
-  <input type="text" id="dropoff" placeholder="Tujuan">
-  <button onclick="order()">Pesan Sekarang</button>
+  <div class="card">
+    <h3>Pesan Ojek</h3>
+    <input type="text" id="pickup" placeholder="Lokasi Jemput">
+    <input type="text" id="dropoff" placeholder="Tujuan">
+    <button onclick="order()">Pesan Sekarang</button>
+  </div>
 </div>
 
 <script src="script.js"></script>
